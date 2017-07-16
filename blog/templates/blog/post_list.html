@@ -1,8 +1,28 @@
-{% for post in posts %}
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.text|linebreaksbr }}</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mega Blog</title>
 
-{% endfor %}
+  </head>
+  <div class="">
+    <h1><a href="#">Mega Blog</a></h1>
+
+  </div>
+  <body>
+    {% for post in posts %}
+    <div class="">
+
+
+        <p>Published: {{ post.date_published }}</p>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+
+    </div>
+    {% endfor %}
+
+  </body>
+</html>
 <!-- <html>
     <head>
         <title>Mega  Blog</title>
