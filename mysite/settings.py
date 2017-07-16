@@ -25,7 +25,7 @@ SECRET_KEY = 'z)e=j8k%97d72pd&9c45w6d7dxrq(klj8&h7%(ie!m7(j+6r$w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'vlblog.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'djg04.pythonanywhere.com']
 
 
 # Application definition
